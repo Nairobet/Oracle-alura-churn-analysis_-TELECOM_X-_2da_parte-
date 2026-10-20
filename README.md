@@ -1,3 +1,103 @@
+# 📊 Telecom X — Part 2: Churn Prediction & Retention Strategy  
+**Machine Learning · Churn Drivers · Customer Retention**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+This project is the second part of the Telecom X Challenge, where the role evolves from data analyst to data scientist. It builds a predictive model to anticipate customer churn and translates model insights into actionable retention strategies for marketing and CRM teams.
+
+The main goal is to develop a robust churn prediction model, interpret the key drivers of customer attrition and deliver strategic recommendations to improve customer retention.
+
+## 🎯 Project Objectives
+
+- Build a churn prediction model with strong performance metrics.
+- Identify the most influential drivers of customer churn.
+- Generate executive visualizations (ROC curve, driver analysis, dashboard).
+- Deliver a final PDF report with strategic conclusions.
+- Provide a clear, reproducible and business-oriented notebook.
+
+## 🗂️ Workflow
+
+### ✔️ Data Preparation
+- Load the cleaned dataset from Part 1.
+- Additional cleaning and removal of irrelevant columns.
+- Categorical encoding using One-Hot Encoding.
+- Stratified Train/Test split.
+
+### ✔️ Modeling
+- Random Forest as the main classification model.
+- Churn predictions and probability scores.
+- Model evaluation:
+  - Accuracy
+  - Precision / Recall / F1-score
+  - ROC-AUC
+  - Technical and executive ROC curve
+
+### ✔️ Interpretation
+- Feature importance analysis (%).
+- Identification of the Top 3 churn drivers.
+- Impact visualization for stakeholders.
+- Final dashboard for executive decision-making.
+
+### ✔️ Deliverables
+- Complete Jupyter notebook (`.ipynb`)
+- PNG visualizations
+- Executive PDF report (`INFORME_ALURA_CHURN.pdf`)
+- README with executive conclusions
+
+## 📈 Key Results
+
+| Metric | Value |
+|---|---|
+| Model | Random Forest |
+| Accuracy | 79% |
+| ROC-AUC | 82.5% |
+| Top churn driver | Total charges (17.2%) |
+
+## 🧭 Critical Churn Drivers
+
+1. **Total charges — 17.2%**  
+   High-spending customers → VIP retention program for premium customers.
+
+2. **Monthly charges — 15.2%**  
+   Price sensitivity → pricing optimization for at-risk segments.
+
+3. **Customer tenure — 14.5%**  
+   High risk during the first 1–6 months → intensive onboarding program.
+
+## ✅ Strategic Recommendations
+
+- **VIP Program**  
+  Focus on customers with total charges above the 80th percentile.  
+  Direct impact on the main churn driver.
+
+- **Onboarding (months 1–6)**  
+  Reduce early churn and improve the initial customer experience.
+
+- **Monthly Pricing Optimization**  
+  Adjust pricing for customers sensitive to monthly charges.
+
+- **Monthly Model Monitoring**  
+  Update churn drivers and track model performance over time.
+
+## 📄 Deliverables
+
+- `telecomx_parte2.ipynb` — complete notebook  
+- `top10_importance.png` — churn driver analysis  
+- `roc_final.png` — executive ROC curve  
+- `dashboard_final.png` — final dashboard  
+- `INFORME_ALURA_CHURN.pdf` — executive report  
+- `README.md` — project documentation  
+
+## 👤 Author
+
+**Nairobi Betancourt**  
+Data Science · Customer Retention · Marketing Analytics  
+*Oracle ONE — Alura · March 2026*
+
 # 📊 TELECOM X – Parte 2  
 ## Predicción de Churn · Machine Learning · Drivers Estratégicos
 
